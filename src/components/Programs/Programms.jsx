@@ -16,7 +16,7 @@ const Programms = () => {
                     {program.image}
                     <span>{program.heading}</span>
                     <span>{program.details}</span>
-                    <div className="join-now"> Rejoingnez maintenant</div> <img src={RightArrow} alt="" />
+                    <div className="join-now"> Rejoingnez maintenant <img src={RightArrow} alt="" /> </div> 
                 </div>
             ))}
         </div>
