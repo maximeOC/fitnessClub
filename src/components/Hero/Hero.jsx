@@ -23,7 +23,7 @@ const Hero = () => {
                 <span>ideal body</span>
               </div>
               <div>
-                <span>nous allons vous aider </span>
+                <span>nous allons vous aider</span>
               </div>
             </div>
 
