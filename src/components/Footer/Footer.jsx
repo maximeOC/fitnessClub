@@ -10,7 +10,7 @@ export const Footer = () => {
       <hr />
       <div className="footer-container">
         <div className="socials-links">
-          <img src={Github} alt="logo github" />
+          <a href="https://github.com/maximeOC" target={"_blank"}><img src={Github} alt="logo github" /> </a> 
           <img src={Instagram} alt="logo instagram" />
           <img src={LinkedIn} alt="logo linkedin" />
         </div>
@@ -18,6 +18,9 @@ export const Footer = () => {
           <img src={Logo} alt="logo du site internet" />
         </div>
       </div>
+
+      <div className="blur blur-f-1"></div>
+      <div className="blur blur-f-2"></div>
     </footer>
   );
 };
